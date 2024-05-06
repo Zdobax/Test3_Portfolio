@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zdoba</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        
+
+
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+}
+
+section{
+    position: relative;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    padding: 100px;
+}
+
+.blue{
+    background-color: #5AB6FF;
+    background-repeat: no-repeat;
+    background-size: 1920px 600px;
+}
+
+.orange{
+    background-color: #F3B64A;
+}
+
+.red{
+    background-color: #FA3636;
+}
+
+.curve{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.curve::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 81% 40%;
+    width: 55%;
+    height: 100%;
+    background-color: #202731;
+
+    transform: translate(83%, 60%);
+}
+
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 210% 102%;
+    width: 55%;
+    height: 100%;
+    background-color: transparent 50%;
+    transform: translate(-2%, 40%);
+
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.wave .shape-fill {
+    fill: #202731;;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.wave2 .shape-fill {
+  fill: #5AB6FF;
+}
+
+    </style>
+</head>
+<body>
+
+<section class="blue">
+    <h1>Nice Curves</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus eius eum expedita, nihil perspiciatis
+        ullam voluptates. At, cupiditate dicta doloremque, eos ex fuga inventore ipsa non qui quibusdam vel.
+    </p>
+
+    <!--<div class="curve"></div>-->
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>Ab animi, consequuntur cumque delectus deserunt dicta doloremque enim eos fugiat hic itaque labore laudantium,
+        magnam neque officiis porro praesentium quidem quo rem repellendus repudiandae, sapiente sequi unde vero
+        voluptate!
+    </p>
+    <div class="wave2">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</section>
+<section class="red">
+    <h1>Nice Curves</h1>
+    <p>Ab ad beatae consequuntur dolore eius eligendi et fuga fugiat labore, libero magnam minus molestias nesciunt odio
+        odit quo repellat sequi tempore. Amet, beatae debitis magnam necessitatibus rerum sequi vitae.
+    </p>
+    <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>Aperiam atque autem culpa debitis distinctio doloribus ea eos eum facere facilis illum nobis, quae quidem quis
+        quos repudiandae rerum sed ut vero, voluptatibus. Explicabo ratione veniam voluptates. Cupiditate, possimus.</p>
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>Ex facilis nemo provident ratione sit, sunt velit. At dolore eligendi eveniet explicabo non nulla possimus saepe
+        soluta. Animi aspernatur assumenda commodi cum dolore, molestias nostrum omnis quidem sunt ullam?</p>
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>Alias aliquam blanditiis commodi dolores itaque nesciunt nisi nobis porro quis temporibus. Culpa est
+        exercitationem facilis laboriosam nesciunt, nisi nostrum numquam praesentium quam quas quo repellat similique
+        sint suscipit ullam?</p>
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>A, accusamus beatae debitis deserunt dolorum eum eveniet excepturi fugiat libero, magnam molestiae natus nobis
+        repellat reprehenderit sint suscipit tempore voluptas, voluptatem. Consectetur culpa cum illo, minima quibusdam
+        quo tempore.</p>
+</section>
+<section>
+    <h1>Nice Curves</h1>
+    <p>Alias aliquam asperiores, dignissimos eaque eligendi eos, esse est, eum explicabo libero neque nisi quo rerum
+        sapiente tempora voluptate voluptatibus? Architecto asperiores assumenda dolor ea minima, natus perferendis
+        repellat sunt!</p>
+</section>
+
+
+</body>
+</html>
